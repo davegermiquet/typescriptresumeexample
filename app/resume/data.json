@@ -1,0 +1,51 @@
+{
+    "contact" :{
+        "name" : "David Germiquet",
+        "Position": "Staff Devops Engineer",
+        "City": "Toronto",
+        "PostalCode": "K9K9K9",
+        "Province": "ON",
+        "Phone": "555-555-5555",
+        "email": "myemail@trulycanadian.net"
+    },
+    "job_experience" : [{
+        "role": "Staff Devops Engineer",
+        "place":"Some Place, North York, Ontario",
+        "date":"September 2010 - Current",
+        "skills" : [
+         "skill 1",
+         "skill 2",
+         "skill 3",
+         "skill 4"
+        ]},{
+        "role": "Staff Devops Engineer",
+        "place":"Some Place, North York, Ontario",
+        "date":"September 2000 - September 2010",
+        "skills": [
+            "skill 1",
+            "skill 2",
+            "skill 3",
+            "skill 4"
+        ]
+      }],
+      "universalskills":[
+        "Developer collaboration",
+        "IT solution development",
+        "Testing and maintenance",
+        "Continous Integration//Deployment",
+        "Hardware and software installation",
+        "Virtualization technologies",
+        "Cloud Technologies",
+        "Computer Networking",
+        "Programming",
+        "Program testing software",
+        "Software applications",
+        "Code reviews",
+        "Solutions deployment",
+        "API design knowledge",
+        "Maintenance and troubleshooting",
+        "Custom coding"
+      ],
+      "softwareSkills": ["Python","Java", "JavaScript", "C++","C" ]
+
+}
