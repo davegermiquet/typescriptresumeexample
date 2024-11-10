@@ -6,11 +6,11 @@ export default function Home() {
     <div className="div-main">
       <main className="main">
         <header>
-          
+              
         </header>
-      <h1> David Germiquet</h1>
+      <h1 className = "text-center"> David Germiquet</h1>
       </main>
-      <Link href="/dashboard">Visit my dashboard</Link>
+      <Link href="/resume">Visit my resume</Link>
       <footer className="main-footer">
       </footer>
     </div>
