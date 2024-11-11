@@ -17,6 +17,7 @@ export default function SideMenu() {
         )}
             {open && (
            <div className="flex flex-col top-0 right-0 text-right">
+            <i><Link href="/">Home</Link> </i>
             <i><Link href="/resume">Resume</Link> </i>
             <i> <Link href="#">Services</Link> </i>
             <i> <Link href="#">Team And Co-Companies</Link> </i>
