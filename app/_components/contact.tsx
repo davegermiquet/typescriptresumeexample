@@ -9,7 +9,7 @@ export default async function Contact () {
         <div>
             <h1>
          <span className="text-2xl py-5 font-bold  ">{contact.name} </span>  <br/>
-        <span className="text-lg"> {contact.Position} </span>
+        <span className="text-xl font-bold"> {contact.Position} </span>
         </h1>
         <br/>
         <h3 className="text-base bg-sky-400"> Contact </h3>
