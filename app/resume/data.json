@@ -46,6 +46,6 @@
         "Maintenance and troubleshooting",
         "Custom coding"
       ],
-      "softwareSkills": ["Python","Java", "JavaScript", "C++","C" ],
+      "softwareSkills": ["Python","Java", "JavaScript", "C++","C","Ansible","Terraform"],
       "overview" :"Critical thinking DevOps Engineer with extensive understanding of high availability architecture and concepts. Purpose-driven professional with capacity to be strong team player plus work effectively independently."
 }
