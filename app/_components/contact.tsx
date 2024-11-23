@@ -29,12 +29,12 @@ export default async function Contact () {
         </p>
         </div>)
 }
-function OverView() {
+async  function OverView() {
+    const file = await fs.readFile(process.cwd() + '/app/resume/data.json', 'utf8');
+    const data = JSON.parse(file);
     return(
         <p className="text-base font-bold italic">
-        Critical thinking DevOps Engineer with extensive understanding of high availability
-        architecture and concepts. Purpose-driven professional with capacity to be strong team
-        player plus work effectively independently.
+            {data.overview}
         </p>
     )
 }
