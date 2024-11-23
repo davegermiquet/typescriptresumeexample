@@ -10,14 +10,17 @@ export default  function resume() {
       <div className="div_main">
         <main className="main_class">
             <div className="flex flex-row w-full h-full">
-              <div className="w-1/5 h-full flex flex-col text-left"> 
+              <div className="w-1/11 h-full flex flex-col text-left"> 
+              <div className="pl-10 pr-10 pt-10">
                <Contact/>
                   <ListSkills/>
                   <SoftwareSkills/>
               </div>
+              </div>
               <div className="w-3/5 py-2 text-justify">
+              <div className="pt-10">
               <OverView/>
-
+              </div>
               <br/>
               <h1 className="text-2xl font-bold py-2"> Work History</h1>
               <br/>

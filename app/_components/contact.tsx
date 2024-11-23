@@ -7,8 +7,10 @@ export default async function Contact () {
     const contact = data['contact']
     return (
         <div>
-         <h1 className="text-2xl py-5 font-bold  ">{contact.name} </h1>
-        <h2 className="text-lg"> {contact.Position} </h2>
+            <h1>
+         <span className="text-2xl py-5 font-bold  ">{contact.name} </span>  <br/>
+        <span className="text-lg"> {contact.Position} </span>
+        </h1>
         <br/>
         <h3 className="text-base bg-sky-400"> Contact </h3>
         <h4 className="text-sm font-bold" > Address   </h4>
@@ -29,7 +31,7 @@ export default async function Contact () {
 }
 function OverView() {
     return(
-        <p className="text-base">
+        <p className="text-base font-bold italic">
         Critical thinking DevOps Engineer with extensive understanding of high availability
         architecture and concepts. Purpose-driven professional with capacity to be strong team
         player plus work effectively independently.
