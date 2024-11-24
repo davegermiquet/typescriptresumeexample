@@ -59,9 +59,9 @@ async function JobExperience() {
     const softwareSkills = data['softwareSkills']
     const softwareItems = softwareSkills.map((softwareSkill:string,index:number) =><span key={index}>{softwareSkill} </span>  );
 
-  return( <div>
+  return( <div className="">
                 <h3 className="text-base bg-sky-400"> Software </h3>
-                  <p className="text-sm">
+                <p className="text-sm text-wrap" >
                   {softwareItems}
                   </p>
                   </div>)
