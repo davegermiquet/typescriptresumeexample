@@ -9,24 +9,22 @@ export default  function resume() {
     return (
       <div className="div_main">
         <main className="main_class">
-            <div className="flex flex-row w-full h-full">
-              <div className="w-1/11 h-full flex flex-col text-left"> 
-              <div className="pl-10 pr-10 pt-10">
+            <div className="flex flex-row mr-40 ml-5  mt-10">
+              <div className="flex flex-col text-left pl-5 pr-7"> 
+              <div className="">
                <Contact/>
                   <ListSkills/>
                   <SoftwareSkills/>
               </div>
               </div>
-              <div className="w-3/5 py-2 text-justify">
-              <div className="pt-10">
-              <OverView/>
-              </div>
-              <br/>
-              <h1 className="text-2xl font-bold py-2"> Work History</h1>
-              <br/>
-              <div className="flex flex-col">
-              <JobExperience/>
-              </div>
+              <div className="text-justify mr-40">
+                <OverView/>
+              <div className="mt-5 mb-5">
+             <h1 className="text-2xl font-bold"> Work History</h1>
+                </div>
+                  <div className="flex flex-col">
+                  <JobExperience/>
+                  </div>
               </div>
             </div>
         </main>

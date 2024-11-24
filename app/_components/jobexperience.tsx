@@ -15,14 +15,15 @@ async function JobExperience() {
       const jobExpierence = job_experience.map((experience:JobExperiernceType,index:number)  => (
         <div key={index} className="flex flex-row">
         
-      <div className="flex-[10%] flex-col w-30px px-3 text-left">
+      <div className="flex-[10%] flex-col mr-3 text-left">
              {experience.date}
         </div>
         <div className="flex-[60%] text-justify">
+          <div className="mb-2">
         <span className="font-bold">
           {experience.role} </span> <br/>
         <span className="italic">{experience.place}       </span> 
-          <br/>
+        </div>
           <ul className="list-disc">
           {experience.skills.map((skills:string,index2:number) => <li key={index2}>  {skills}  </li>)}
           </ul>
@@ -30,7 +31,7 @@ async function JobExperience() {
           </div>
       ))
     return (
-      <div>
+      <div className="">
         {jobExpierence}
       </div>
     )
