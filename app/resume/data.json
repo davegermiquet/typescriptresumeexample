@@ -10,19 +10,19 @@
     },
     "job_experience" : [{
         "role": "Staff Devops Engineer",
-        "place":"Some Place, North York, Ontario",
+        "place":"Peraso Inc, North York, Ontario",
         "date":"September 2010 - Current",
         "skills" : [
-         "skill 1",
+         "Worked with cross-functional design teams to create software solutions that improved overall functionality and performance, using python, and apis within TeamCity.",
          "skill 2",
          "skill 3",
          "skill 4"
         ]},{
-        "role": "Staff Devops Engineer",
-        "place":"Some Place, North York, Ontario",
+        "role": "Lead IT Software Developer – Software Developer",
+        "place":"Home Depot, North York, Ontario",
         "date":"September 2000 - September 2010",
         "skills": [
-            "skill 1",
+            "Developed new phone system with voice assisted technologies as MVP, using docker and kubernetes.",
             "skill 2",
             "skill 3",
             "skill 4"

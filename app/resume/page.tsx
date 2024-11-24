@@ -9,8 +9,8 @@ export default  function resume() {
     return (
       <div className="div_main">
         <main className="main_class">
-            <div className="flex flex-row mr-40 ml-5  mt-10">
-              <div className="flex flex-col text-left pl-5 pr-7"> 
+            <div className="flex-none lg:flex lg:flex-row mr-40 ml-5  mt-10">
+              <div className="flex-none lg:flex lg:flex-col text-left pl-5 pr-7 mb-10"> 
               <div className="">
                <Contact/>
                   <ListSkills/>
