@@ -17,7 +17,7 @@ export default  function resume() {
                   <SoftwareSkills/>
               </div>
               </div>
-              <div className="text-justify mr-40">
+              <div className="text-justify md:mr-40">
                 <OverView/>
               <div className="mt-5 mb-5">
              <h1 className="text-2xl font-bold"> Work History</h1>
